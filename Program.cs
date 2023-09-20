@@ -17,7 +17,20 @@ LinqQueries queries = new LinqQueries();
 //Console.WriteLine($" Algun libro publicado en 2005? - {queries.AlgunLibroPublicadoEn2005()}");
 
 //Libros que sean de categoria python
-ImprimirValores(queries.LibrosDePython());
+//ImprimirValores(queries.LibrosDePython());
+
+//libros de java ordenados por nombre
+//ImprimirValores(queries.LibrosDeJavaPorNombreAscendente());
+
+//libros con mas de 450 pags ordenados desc
+//ImprimirValores(queries.LibrosConMasDe450PagOrdenadosPorPagDesc());
+
+//3 primeros Libros de java ordenados por fecha
+//ImprimirValores(queries.TresPrimerosLibrosOrdenadosPorFecha());
+
+//tecrer y cuarto libro con mas de 400 pags
+ImprimirValores(queries.TercerYCuartoLibroConMasDe400Pags());
+
 
 void ImprimirValores(IEnumerable<Book> listadelibros)
 {

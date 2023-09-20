@@ -43,4 +43,26 @@ public class LinqQueries
     public IEnumerable<Book> LibrosDePython(){
         return librosCollection.Where(p=> p.Categories.Contains("Python"));
     }
+
+    public IEnumerable<Book> LibrosDeJavaPorNombreAscendente(){
+        return librosCollection.Where(p=> p.Categories.Contains("Java")).OrderBy(p=> p.Title);
+    }
+
+    public IEnumerable<Book> LibrosConMasDe450PagOrdenadosPorPagDesc(){
+        return librosCollection.Where(p=> p.PageCount > 450).OrderByDescending(p=> p.PageCount);
+    }
+    
+    public IEnumerable<Book> TresPrimerosLibrosOrdenadosPorFecha(){
+        return librosCollection
+        .Where(p=> p.Categories.Contains("Java"))
+        .OrderByDescending(p=> p.PublishedDate)
+        .Take(3);
+    }
+
+    public IEnumerable<Book> TercerYCuartoLibroConMasDe400Pags(){
+        return librosCollection
+        .Where(p=> p.PageCount > 400)
+        .Take(4)
+        .Skip(2); //skippea los dos primeros
+    }
 }
