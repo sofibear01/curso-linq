@@ -1,0 +1,14 @@
+E:\proyectos\curso-linq\bin\Debug\net7.0\curso-linq.exe
+E:\proyectos\curso-linq\bin\Debug\net7.0\curso-linq.deps.json
+E:\proyectos\curso-linq\bin\Debug\net7.0\curso-linq.runtimeconfig.json
+E:\proyectos\curso-linq\bin\Debug\net7.0\curso-linq.dll
+E:\proyectos\curso-linq\bin\Debug\net7.0\curso-linq.pdb
+E:\proyectos\curso-linq\obj\Debug\net7.0\curso-linq.GeneratedMSBuildEditorConfig.editorconfig
+E:\proyectos\curso-linq\obj\Debug\net7.0\curso-linq.AssemblyInfoInputs.cache
+E:\proyectos\curso-linq\obj\Debug\net7.0\curso-linq.AssemblyInfo.cs
+E:\proyectos\curso-linq\obj\Debug\net7.0\curso-linq.csproj.CoreCompileInputs.cache
+E:\proyectos\curso-linq\obj\Debug\net7.0\curso-linq.dll
+E:\proyectos\curso-linq\obj\Debug\net7.0\refint\curso-linq.dll
+E:\proyectos\curso-linq\obj\Debug\net7.0\curso-linq.pdb
+E:\proyectos\curso-linq\obj\Debug\net7.0\curso-linq.genruntimeconfig.cache
+E:\proyectos\curso-linq\obj\Debug\net7.0\ref\curso-linq.dll
