@@ -65,4 +65,10 @@ public class LinqQueries
         .Take(4)
         .Skip(2); //skippea los dos primeros
     }
+
+    public IEnumerable<Book> TresPrimerosLibrosDeLaColeccion(){
+        return librosCollection.Take(3)
+        .Select(p=> new Book() { Title = p.Title, PageCount = p.PageCount }); //al libro solamente se le ponen esos datos q le asignamos
+    }
+
 }

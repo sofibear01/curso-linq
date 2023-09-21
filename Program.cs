@@ -29,8 +29,10 @@ LinqQueries queries = new LinqQueries();
 //ImprimirValores(queries.TresPrimerosLibrosOrdenadosPorFecha());
 
 //tecrer y cuarto libro con mas de 400 pags
-ImprimirValores(queries.TercerYCuartoLibroConMasDe400Pags());
+//ImprimirValores(queries.TercerYCuartoLibroConMasDe400Pags());
 
+//primeros libros filtrados con select
+ImprimirValores(queries.TresPrimerosLibrosDeLaColeccion());
 
 void ImprimirValores(IEnumerable<Book> listadelibros)
 {
