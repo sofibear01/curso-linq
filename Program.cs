@@ -32,7 +32,31 @@ LinqQueries queries = new LinqQueries();
 //ImprimirValores(queries.TercerYCuartoLibroConMasDe400Pags());
 
 //primeros libros filtrados con select
-ImprimirValores(queries.TresPrimerosLibrosDeLaColeccion());
+//ImprimirValores(queries.TresPrimerosLibrosDeLaColeccion());
+
+//cantidad de libros con paginas entre 200 y 500
+//Console.WriteLine("La cantidad es: " + queries.NumeroDeLibrosEntre200y500Pags());
+
+//menor fecha de publicacion
+//Console.WriteLine("la menor fecha es: " + queries.MenorFecha());
+
+//libro con mayor pagina
+//Console.WriteLine("La mayor cantiad de paginas " + queries.NumeroDePagsLibroMayor());
+
+//libro con mejnor numero de paginas
+//var libroMenorPag = queries.LibroConMenorNumeroDePaginas();
+//Console.WriteLine("libro con menor numero de paginas: " + libroMenorPag.Title + " - " + libroMenorPag.PageCount);
+
+//libro con fecha de publicacion mas reciente
+//var libroFechaMasReciente = queries.LibroConFechaPublicacionMasReciente();
+//Console.WriteLine("libro con fecha mas reciente: " + libroFechaMasReciente.Title + " - " + libroFechaMasReciente.PublishedDate);
+
+//Suma de paginas de libros entre 0 y 500 paginas 
+//Console.WriteLine("Suma de las paginas: " + queries.SumaPaginasLibros0y500Pags());
+
+
+//titulos contatenados 
+Console.WriteLine(queries.TitulosDeLibrosDespuesDel2015Concatenados());
 
 void ImprimirValores(IEnumerable<Book> listadelibros)
 {

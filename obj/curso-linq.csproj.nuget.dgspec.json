@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\proyectos\\curso-linq\\curso-linq.csproj": {}
+    "C:\\Users\\Sofi\\OneDrive\\CURSOS\\curso-linq\\curso-linq.csproj": {}
   },
   "projects": {
-    "E:\\proyectos\\curso-linq\\curso-linq.csproj": {
+    "C:\\Users\\Sofi\\OneDrive\\CURSOS\\curso-linq\\curso-linq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\proyectos\\curso-linq\\curso-linq.csproj",
+        "projectUniqueName": "C:\\Users\\Sofi\\OneDrive\\CURSOS\\curso-linq\\curso-linq.csproj",
         "projectName": "curso-linq",
-        "projectPath": "E:\\proyectos\\curso-linq\\curso-linq.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "E:\\proyectos\\curso-linq\\obj\\",
+        "projectPath": "C:\\Users\\Sofi\\OneDrive\\CURSOS\\curso-linq\\curso-linq.csproj",
+        "packagesPath": "C:\\Users\\Sofi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sofi\\OneDrive\\CURSOS\\curso-linq\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sofi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
