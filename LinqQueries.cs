@@ -113,4 +113,25 @@ public class LinqQueries
             return TitulosDeLibros;
         });
     }
+
+    public double PromedioDeCaracteres(){
+        return librosCollection.Average(p=> p.Title.Length);
+    }
+
+    public IEnumerable<IGrouping<int, Book>> LibrosPublicados2000AgrupadosPorAño(){
+        return librosCollection
+        .Where(p=> p.PublishedDate.Year >= 2000)
+        .GroupBy(p=> p.PublishedDate.Year);
+    }
+
+    public ILookup<char, Book> DiccionarioDeLibrosPorLetra(){
+        return librosCollection.ToLookup(p=> p.Title[0], p=> p); //podemos usar el [0] porque un string es un vector de caracteres
+    }
+
+    public IEnumerable<Book> LibrosDespuesDel2005ConMasDe500Pags(){
+        var LibrosDespuesDel2005 = librosCollection.Where(p=> p.PublishedDate.Year > 2005);
+        var LibrosConMasDe500Pags = librosCollection.Where(p=> p.PageCount > 500);
+
+        return LibrosDespuesDel2005.Join(LibrosConMasDe500Pags, p=> p.Title, x=> x.Title, (p, x) => p); //comparamos las colecciones con titulo como si fuera unico porque no hay ids
+    }
 }
